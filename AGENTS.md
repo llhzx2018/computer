@@ -182,3 +182,9 @@ file and add it to the list above.
   `examples/container`, and `examples/worker-shell` exercise the public
   surface. If you change a public API, update them in the same
   change.
+
+## 个人小团队交付简化 · 跨仓统一指针（OWNER 2026-11-09）
+
+本仓自有开发遵循 [GOV-DOC 唯一规则源](https://github.com/llhzx2018/gov-doc/blob/main/governance/agent/VF_DEVELOPMENT_SYSTEM_V2.md#个人小团队先开发先交可试用候选正式发布另验)：`DEV_READY`（源码完成）、`OWNER_TRIAL_CANDIDATE`（明确非正式的 Owner 手工试用包）、`FORMAL_RELEASE_READY`（满足适用正式发布门禁）分开。测试环境缺失不阻断可独立完成的源码开发及诚实标注的候选交付，不无限循环 Runner/CI；不得虚报机器 PASS、取消必要备份/回滚或自动写入 Production。项目固有安全、权限、生命周期和高风险边界仍有效。
+
+**退休仓注意：**如本仓标记 `RETIRED`，此文档指针仅供历史维护与未来明确再启用后的参照；不取消 `RETIREMENT HARD STOP`，不授权恢复开发、Release 或 Production。
